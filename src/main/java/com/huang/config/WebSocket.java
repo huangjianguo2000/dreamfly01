@@ -151,7 +151,7 @@ public class WebSocket {
         try {
             logger.info("来自客户端消息：" + message + "客户端的id是：" + session.getId());
 
-            System.out.println("------------   :" + message);
+            System.out.println("------------    :" + message);
 
             // JSONObject jsonObject = JSON.parseObject(message);
 //            String textMessage = jsonObject.getString("message");
